@@ -1,0 +1,23 @@
+# GIT
+
+
+```bash
+git status
+```
+
+```bash
+git pull
+```
+
+```bash
+git add -A (file that has been changed)
+```
+
+```bash
+git commit
+```
+
+```bash
+git push
+```
+
