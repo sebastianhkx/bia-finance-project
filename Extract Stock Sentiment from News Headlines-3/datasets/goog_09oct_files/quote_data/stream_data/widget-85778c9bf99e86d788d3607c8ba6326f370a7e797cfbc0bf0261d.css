@@ -1,0 +1,140 @@
+/* line 1, /opt/stocktwits/app/assets/stylesheets/widget/widget.scss */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, /opt/stocktwits/app/assets/stylesheets/widget/widget.scss */
+.stocktwits-widget {
+  border: 1px solid;
+  line-height: 125%;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 12, /opt/stocktwits/app/assets/stylesheets/widget/widget.scss */
+.stocktwits-widget h1 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 37px;
+  padding: 0 15px;
+  margin: 0;
+}
+
+/* line 19, /opt/stocktwits/app/assets/stylesheets/widget/widget.scss */
+div.stream {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 5px 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 28, /opt/stocktwits/app/assets/stylesheets/widget/widget.scss */
+div.stream li {
+  zoom: 1;
+  min-height: 50px;
+  border-bottom: 1px dotted;
+  padding: 10px 10px;
+}
+
+/* line 34, /opt/stocktwits/app/assets/stylesheets/widget/widget.scss */
+div.stream li.error {
+  color: red;
+}
+
+/* line 35, /opt/stocktwits/app/assets/stylesheets/widget/widget.scss */
+div.stream li p {
+  margin: 0;
+}
+
+/* line 36, /opt/stocktwits/app/assets/stylesheets/widget/widget.scss */
+div.avatar-show li p {
+  margin-left: 57px;
+}
+
+/* line 37, /opt/stocktwits/app/assets/stylesheets/widget/widget.scss */
+div.stream li .avatar {
+  display: none;
+}
+
+/* line 38, /opt/stocktwits/app/assets/stylesheets/widget/widget.scss */
+.avatar img {
+  border: none;
+}
+
+/* line 39, /opt/stocktwits/app/assets/stylesheets/widget/widget.scss */
+div.avatar-show li .avatar {
+  display: block;
+  float: left;
+  margin-right: 7px;
+  position: relative;
+}
+
+/* line 40, /opt/stocktwits/app/assets/stylesheets/widget/widget.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 41, /opt/stocktwits/app/assets/stylesheets/widget/widget.scss */
+a.username {
+  font-weight: bold;
+  font-size: .9em;
+  /*line-height: 12px;*/
+}
+
+/* line 46, /opt/stocktwits/app/assets/stylesheets/widget/widget.scss */
+a.ticker {
+  text-transform: capitalize;
+}
+
+/* line 47, /opt/stocktwits/app/assets/stylesheets/widget/widget.scss */
+.time {
+  display: none;
+  color: #999;
+  font-size: 11px;
+  padding-left: 3px;
+}
+
+/* line 49, /opt/stocktwits/app/assets/stylesheets/widget/widget.scss */
+.footer {
+  font-size: 11px;
+  height: 22px;
+  line-height: 21px;
+  padding: 5px 7px 3px;
+  text-align: right;
+}
+
+/* line 56, /opt/stocktwits/app/assets/stylesheets/widget/widget.scss */
+.footer a {
+  color: #999;
+}
+
+/* line 57, /opt/stocktwits/app/assets/stylesheets/widget/widget.scss */
+.footer a img {
+  border: none;
+  padding-left: 2px;
+  vertical-align: bottom;
+}
+
+/* line 58, /opt/stocktwits/app/assets/stylesheets/widget/widget.scss */
+.scroll-show {
+  overflow-y: scroll !important;
+}
+
+/* line 60, /opt/stocktwits/app/assets/stylesheets/widget/widget.scss */
+.time-show span.time {
+  display: inline;
+}
+
+/* line 62, /opt/stocktwits/app/assets/stylesheets/widget/widget.scss */
+.investor_relations .msgSource {
+  background: url(/assets/web2/stocktwits-sprite-367353d02fbd1c918fd59496e175127a584022c27e347198ab2c4355156a7335.png) -188px 0px;
+  height: 15px;
+  position: absolute;
+  right: -3px;
+  top: -3px;
+  width: 15px;
+}
